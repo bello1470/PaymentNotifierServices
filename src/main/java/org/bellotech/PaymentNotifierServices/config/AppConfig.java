@@ -49,6 +49,8 @@ public class AppConfig {
         props.put("mail.transport.protocol", mail_transport_Protocol);
         props.put("mail.smtp.auth", mail_properties_mail_smtp_auth);
         props.put("mail.smtp.Starttls.enable", mai_properties_mail_smtp_startls_enable);
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.starttls.required", "true"); 
         props.put("mail.debug", "true");
         props.put("mail.smtp.ssl.trust", smtp_ssl_trust );
 
